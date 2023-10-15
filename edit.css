@@ -26,24 +26,28 @@
     display: none;
 }
 
-.edit .back, .edit .start {
+.ds4 .back, .ds4 .start {
     background: url(https://imblakeluna.github.io/jordiecontroller/start.svg);
-    width: 33px;
-    height: 33px;
+    width: 28px;
+    height: 46px;
     opacity: 0;
 }
 
-.edit .back.pressed, .edit .start.pressed {
+.ds4 .back.pressed, .ds4 .start.pressed {
+    /* background-position-y: -21px; */
+    /* margin-top: 2px; */
     opacity: 1;
 }
 
-.edit .back {
+.ds4 .back {
     float: left;
+    /* width: 28px; */
 }
 
-.edit .start {
-    background-position: 33px 0px;
+.ds4 .start {
     float: right;
+    /* width: 28px; */
+    background-position: 28px 0;
 }
 
 .ds4 .face {
