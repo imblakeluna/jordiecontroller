@@ -115,7 +115,7 @@
 }
 
 .ds4 .b {
-    background-position: -57px 0;
+    background-position: -56px 0;
     top: 58px;
     right: 0px;
 }
@@ -127,7 +127,8 @@
 
 .ds4 .y {
     background-position: 55px 0;
-    left: 58px;
+    top: -0.1px;
+    left: 57.7px;
 }
 
 .ds4 .meta.pressed {
