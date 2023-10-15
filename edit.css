@@ -1,5 +1,7 @@
 .controller.edit {
   background: url(https://imblakeluna.github.io/jordiecontroller/base.svg);
+  height: 598px;
+  width: 806px;
 }
 
 .edit.disconnected {
@@ -126,4 +128,12 @@
 .ds4 .y {
     background-position: 55px 0;
     left: 58px;
+}
+
+.ds4 .meta {
+    width: 42px;
+    height: 42px;
+    position: absolute;
+    left: 382px;
+    bottom: 215px;
 }
