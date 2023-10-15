@@ -46,42 +46,80 @@
     float: right;
 }
 
-.edit .dpad {
-   background: url(https://imblakeluna.github.io/jordiecontroller/dpad.svg)
+.ds4 .face {
+    background: url(https://imblakeluna.github.io/jordiecontroller/dpad.svg);
+    position: absolute;
 }
 
-
-.edit .button {
-  position: absolute;
-  background: url(https://imblakeluna.github.io/jordiecontroller/face.svg);
+.ds4 .face.up, .ds4 .face.down {
+    width: 36px;
+    height: 52px;
 }
 
-.edit .button.pressed {
-    background-position-y: -49px;
-    margin-top: 5px;
-    opacity: 1;
+.ds4 .face.left, .ds4 .face.right {
+    width: 52px;
+    height: 36px;
 }
 
-.edit .a {
+.ds4 .face.up {
+    left: 44px;
+    top: 0;
+    background-position: -37px 0px;
+}
+
+.ds4 .face.down {
+    left: 44px;
+    bottom: 0;
+    background-position: 0px 0;
+}
+
+.ds4 .face.left {
+    top: 45px;
+    left: 0;
+    background-position: 104px 0;
+}
+
+.ds4 .face.right {
+    top: 45px;
+    right: 0px;
+    background-position: 52px 0;
+}
+
+.ds4 .face.pressed {
+    /* margin-top: 5px; */
+    background-position-y: 52px;
+}
+
+.ds4 .button {
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    background: url(https://imblakeluna.github.io/jordiecontroller/face.svg);
+}
+
+.ds4 .button.pressed {
+    background-position-y: 55px;
+    /* margin-top: 5px; */
+}
+
+.ds4 .a {
     background-position: 0 0;
-    top: 107px;
-    left: 54px;
+    bottom: 0;
+    left: 58px;
 }
 
-.edit .b {
-    background-position: -49px 0;
-    top: 56px;
+.ds4 .b {
+    background-position: -57px 0;
+    top: 58px;
     right: 0px;
 }
 
-.edit .x {
-    background-position: -98px 0;
-    top: 56px;
-    left: 3px;
+.ds4 .x {
+    background-position: -113px 0;
+    top: 58px;
 }
 
-.edit .y {
-    background-position: 48px 0;
-    left: 54px;
-    top: 6px;
+.ds4 .y {
+    background-position: 55px 0;
+    left: 58px;
 }
