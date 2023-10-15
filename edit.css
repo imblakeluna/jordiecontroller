@@ -130,6 +130,9 @@
     left: 58px;
 }
 
+.ds4 .meta.pressed {
+    background: url(https://imblakeluna.github.io/jordiecontroller/meta.svg) no-repeat center;
+}
 .ds4 .meta {
     width: 42px;
     height: 42px;
